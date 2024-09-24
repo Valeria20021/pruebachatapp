@@ -129,6 +129,8 @@ include('header.php');
             <li><a href="indexfinal.html">Inicio</a></li>
             <li><a href="mapa_marcadoreslogin.html">Mapa de búsqueda</a></li>
             <li><a href="catalogo.php">Busca a tu mascota</a></li>
+            <li><a href="pruebaregistromascota.html">Registra tu mascota</a></li>
+            <li><a href="catalogo_adopciones.php">Adopciones</a></li>
         </ul>
     </nav>
 

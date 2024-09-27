@@ -54,7 +54,7 @@ def calcular_similitud(mascota_perdida, mascota_encontrada):
     if similitud_color > 0:
         coincidencias.append(f"Color: {mascota_encontrada['color']} (Coincidencia: {similitud_color}%)")
     if similitud_descripcion > 0:
-        coincidencias.append(f"Descripción: {similitud_descripcion:.2f}% de coincidencia en las palabras. Palabras coincidentes: {', '.join(palabras_comunes)}")
+        coincidencias.append(f"Descripción | palabras coincidentes: {', '.join(palabras_comunes)} (Coincidencia: {similitud_descripcion:.2f}%)")
     if distancia_km > 0:
         coincidencias.append(f"Distancia: {distancia_km:.2f} km")
     if similitud_ubicacion > 0:
